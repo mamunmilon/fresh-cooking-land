@@ -7,14 +7,22 @@ h1{
     font-size: 50px;
     color: darkblue;
 }
+h2{
+    font-size: 30px;
+    color:darkblue
+}
 
-.first-section{
+
+.first-section {
     display: flex;
+    padding-bottom: 40px;
+
     
 }
 .introduction{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 5px;
+    
     
     
 }
@@ -22,7 +30,10 @@ h1{
     width: 70%;
 
 }
-.offer-button{
+.introduction .big-image{
+    width: 40%;
+}
+.click-button{
     background-color: orange;
     text-decoration: none;
     padding: 8px 16px;
@@ -33,5 +44,10 @@ h1{
 
 .company-name{
     color:orange;
+}
+
+
+.second-section{
+    display: flex;
 }
 
