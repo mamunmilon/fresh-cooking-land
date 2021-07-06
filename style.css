@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: darkblue;
+}
+
+.first-section{
+    display: flex;
+    
+}
+.introduction{
+    width: 50%;
+    padding-left: 5%;
+    
+    
+}
+.introduction img{
+    width: 70%;
+
+}
+.offer-button{
+    background-color: orange;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius:50px;
+    box-shadow: 2px 3px 8px gray;
+
+}
+
+.company-name{
+    color:orange;
+}
+
