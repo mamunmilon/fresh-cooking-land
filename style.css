@@ -9,7 +9,7 @@ h1{
 }
 h2{
     font-size: 30px;
-    color:darkblue
+    color:white;
 }
 
 
@@ -31,11 +31,13 @@ h2{
 
 }
 .introduction .big-image{
-    width: 40%;
+    width: 50%;
 }
 .click-button{
     background-color: orange;
     text-decoration: none;
+    color:white;
+    font-weight: 5px;
     padding: 8px 16px;
     border-radius:50px;
     box-shadow: 2px 3px 8px gray;
@@ -49,5 +51,10 @@ h2{
 
 .second-section{
     display: flex;
+    background-image: url(images/background.png);
+}
+
+.second-section p{
+    color:white
 }
 
